@@ -1,0 +1,52 @@
+/*
+Theme Name: Pemberley Events
+Author: TGHP
+Description: Pemberley Events Theme
+Version: 1.0
+*/
+
+/**
+ * Vendors
+ */
+@import 'vendor/susy/sass/susy';
+@import 'vendor/normalize';
+@import 'vendor/sanitize';
+@import 'vendor/mq-sass/mq-sass';
+@import 'vendor/hamburgers/hamburgers';
+
+/**
+ * Fonts
+ */
+ @import url('https://fonts.googleapis.com/css?family=Sacramento');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+
+/**
+ * Breakpoints
+ */
+$mq-breakpoints: (
+    mobile:       321px,
+    phablet:      580px,
+    tablet:       840px,
+    largeTablet:  965px,
+    desktop:      1030px,
+    big:          1200px,
+    bigger:       1400px,
+    wide:         1600px,
+    max:          2000px
+);
+$mq-show-breakpoints: (mobile, phablet, tablet, desktop, big, bigger, wide, max);
+
+/**
+ * Styles
+ */
+ // base styles
+@import 'partials/variables'; 
+@import 'partials/base-styles';
+@import 'partials/content';
+@import 'partials/header';
+// page styles 
+@import 'partials/couple-photos';
+@import 'partials/wedding-info';
+@import 'partials/invitee';
+@import 'partials/song-choice';
+@import 'partials/menu';

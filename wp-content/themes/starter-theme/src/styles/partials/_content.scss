@@ -1,0 +1,31 @@
+.content {
+	p {
+		color: $main-body-font;
+		a {
+			color: $brand_red;
+		}
+	}
+	.content-centre {
+		text-align: center;
+		p {
+			font-weight: $content-weight;
+		}
+	}	
+	.content-left {
+		padding: 0;
+		@include mq($from: tablet) {
+			width: 50%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.content-right {
+		text-align: center;
+		padding-left: 3%;
+		p {
+			font-weight: $content-weight;
+		}
+	}	
+}

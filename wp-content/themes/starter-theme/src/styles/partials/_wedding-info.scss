@@ -1,0 +1,63 @@
+.map-directions {
+    .col-2 {
+        width: 50%;
+        overflow: hidden;
+        background: #ecf0f1;
+    }
+    h1 {
+        font-family: $header-font;
+        text-align: center;
+        font-size: 4rem;
+        margin: 0;
+    }
+}
+
+.map-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.map-left {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.arrow {
+    width: 40px !important;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    &.arrow-top {
+        transform: rotate(180deg) translateX(50%);
+    }
+    &.arrow-bottom {
+        transform: translateX(-50%);
+    }
+}
+
+.menu-choice-header {
+    font-family: $header-font;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+span.wpcf7-list-item {
+    display: flex;
+    margin: 1rem 0;
+}
